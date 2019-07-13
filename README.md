@@ -11,4 +11,5 @@ It originated after a class of algorithms in which a professor finished teaching
 ## Counting Sort
 
 Counting sort is an algorithm in which we sort numbers from `array A` by counting the occurences of each one and saving those values on their respective index in a new `array C`. Then we start from the last `index` of `array C` and write the value of `A[index]` to the position of `C[A[index]]` of the final `array B` --- (`B[C[A[index] = A[index]`). 
+
 Lastly we decrease the read value of `C[A[index]]` and move index one place down (`index--`).
