@@ -2,9 +2,9 @@
 A counting sort and it's variation called Roman's sort
 
 ## Roman's sort
-Roman's sort is a variation on the counting sort that doesn't need the final array/structure in which we write sorted values as it writes back to the original array. While it doesn't improve the time complexity it can still improve the sorting process in real world situations because it reduces the need for additional memory, thus making the sorting faster.
+Roman's sort is a variation of the counting sort that doesn't need the final array/structure in which we write sorted values as it writes back to the original array. While it doesn't improve the time complexity it can still improve the sorting process in real world situations because it reduces the need for additional memory, thus making the sorting faster.
 
-This variation however makes the algorithm from stable to unstable meaning it shifts even the numbers with the same value.
+This change however makes the algorithm from stable to unstable meaning it shifts even the numbers with the same value.
 
 It originated after a class of algorithms in which a professor finished teaching the Counting sort and a student named Roman came up to him and suggested he could do it in a better way
 
